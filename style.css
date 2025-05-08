@@ -1,1 +1,40 @@
-/* Add styles here */
+body{
+    background-color: rgb(27, 27, 27);
+}
+
+hr{
+    border-color: darkgoldenrod;
+}
+
+h2{
+    justify-content: center;
+    display: flex;
+    color: darkgoldenrod;
+}
+#lista1{
+    display: grid;
+    place-items: center;
+    text-align: center;
+ list-style-type: disc;
+ 
+;
+
+}
+
+h1{
+    color: darkgoldenrod;
+    text-align: center;
+}
+
+li{
+    color: floralwhite;
+}
+#lista2{
+    display: grid;
+    place-items: center;
+    text-align: center;
+ list-style-type: decimal
+ 
+;
+
+}

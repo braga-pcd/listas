@@ -3,38 +3,45 @@ body{
 }
 
 hr{
-    border-color: darkgoldenrod;
+    border-color: hsl(28, 187, 41);
 }
 
 h2{
     justify-content: center;
     display: flex;
-    color: darkgoldenrod;
+    color: rgb(28, 187, 41);
 }
-#lista1{
+#musicas{
     display: grid;
     place-items: center;
     text-align: center;
  list-style-type: disc;
+ text-decoration: underline;
+ disc color: (28, 187, 41)
  
 ;
 
 }
 
 h1{
-    color: darkgoldenrod;
+    color: rgb(28, 187, 41);
     text-align: center;
 }
 
 li{
     color: floralwhite;
 }
-#lista2{
+#albuns{
     display: grid;
     place-items: center;
     text-align: center;
- list-style-type: decimal
+ list-style-type: decimal;
+ text-decoration: underline;
  
 ;
-
+img{
+    width: 80px;
+    display: flex;
+    justify-content: right;
+   
 }
